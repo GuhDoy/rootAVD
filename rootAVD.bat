@@ -540,8 +540,8 @@ exit /B 0
 	set NoSystemImages=%true%
 
 	REM Default: Looking for LOCALAPPDATA to seach AVD system-images
-	set ENVVAR=%%LOCALAPPDATA%%\Android\Sdk
-	set ANDROIDHOME=%LOCALAPPDATA%\Android\Sdk\
+	set ENVVAR=D:\Sdk
+	set ANDROIDHOME=D:\Sdk\
 
 	IF defined ANDROID_HOME (
         set ENVVAR=%%ANDROID_HOME%%
